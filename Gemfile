@@ -34,6 +34,7 @@ gem 'bcrypt', '~> 3.1', '>= 3.1.12'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
+gem 'webpacker', '~> 3.5', '>= 3.5.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
