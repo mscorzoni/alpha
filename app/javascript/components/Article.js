@@ -28,6 +28,12 @@ class Article extends React.Component {
     self.forceUpdate();
     setInterval(function() { self.forceUpdate()}, 1000);
   }
+  componentWillUnmount() {
+    if (this._timer) {
+      clearInterval(this._timer);
+      this_timer = null;
+    }
+  }
 }
 
 Article.propTypes = {
